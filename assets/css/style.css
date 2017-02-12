@@ -250,28 +250,26 @@ input[type=submit] {
     width: 100%
   }
 
-  #main-container {
+  .main-section {
     width: 55%;
-    max-width: 980px;
     float: left;
   }
 
-  #sidebar {
+  .sidebar {
     width: 40%;
-    float: none;
+    float: left;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  #main-container {
+  .main-section {
     width: 100%;
     float: left;
   }
 
-  #sidebar {
+  .sidebar {
     width: 100%;
-    max-width: 768px;
-    float: none;
+    float: bottom;
   }
 }
 
@@ -288,12 +286,12 @@ input[type=submit] {
     width:100%;
   }
 
-  #main-container {
+  .main-section {
     width: 100%;
     float: left;
   }
 
-  #sidebar {
-    width: 640px;
+  .sidebar {
+    width: 100%;
     float: left;
   }
